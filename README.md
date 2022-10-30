@@ -1,4 +1,4 @@
-## CS252: OS Assignment
+# CS252: OS Assignment
 
 # Question 1: Chapter 4 - 4.22
 
