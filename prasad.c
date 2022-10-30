@@ -12,7 +12,7 @@ void *av()
 {
 	int sum=0;
 	float average;
-	printf("How many numbers: ");
+	printf("How many number: ");
 	scanf("%d",&n);
     printf("Enter the numbers: ");
 	for(i=0;i<n;i++)
