@@ -1,6 +1,6 @@
 # CS252: OS Assignment
 
-#Q uestion 1: Chapter 4 - 4.22
+# Question 1: Chapter 4 - 4.22
 
 Write a multithreaded program that calculates various statistical values
 for a list of numbers. This program will be passed a series of numbers
