@@ -24,6 +24,9 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 > strace -o system_calls.txt ./straceobj
 - To keep the count of the number of each system call being made, we use -c
   > strace -o system_calls.txt -c ./straceobj
+- The output text file containing all the system calls is as shown below: 
+
+![ss2](https://user-images.githubusercontent.com/116995762/200142651-6730b6f0-1a32-43d9-bd4b-0d3fba2bc629.png)
 
 ## Implementation
 - The program is written in C language for reading the data from an existing file and paste it into a new file (which does not exist before executing the program).
