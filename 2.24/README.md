@@ -20,11 +20,14 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 ![ss](https://user-images.githubusercontent.com/116995762/200142462-5fd41332-3db7-418c-b1e8-67c75430cb1e.png)
 
 
-## Command to create an output text file to track system calls
+## Creating an output text file to track system calls
+- Enter the command to generate an output .txt file of system calls
 > strace -o system_calls.txt ./straceobj
+ - [Click to view system_calls_notable.txt](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/system_calls_notable.txt)
+
 - To keep the count of the number of each system call being made, we use -c
   > strace -o system_calls.txt -c ./straceobj
-- The output text file containing all the system calls is as shown below: 
+- The output text file containing the number of each system call is as shown below: 
 
 ![ss2](https://user-images.githubusercontent.com/116995762/200142651-6730b6f0-1a32-43d9-bd4b-0d3fba2bc629.png)
  - [Click to view system_calls.txt](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/system_calls.txt)
