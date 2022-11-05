@@ -21,7 +21,7 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 
 
 ## Creating an output text file to track system calls
-- Enter the command to generate an output .txt file of system calls
+- Enter this command to generate an output .txt file of system calls
 > strace -o system_calls.txt ./straceobj
  - [Click to view system_calls_notable.txt](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/system_calls_notable.txt)
 
