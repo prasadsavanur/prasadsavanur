@@ -31,9 +31,9 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 
 ## Implementation
 - The program is written in C language for reading the data from an existing file and paste it into a new file (which does not exist before executing the program).
-- The input file is source.txt [Click](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/source.txt)
-- The output file is destination.txt [Click](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/destination.txt)
-- A system_calls.txt file is also created in which all the system calls are logged [Click](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/system_calls.txt)
+- The input file is source.txt    [(Click)](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/source.txt)
+- The output file is destination.txt  [(Click)](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/destination.txt)
+- A system_calls.txt file is also created in which all the system calls are logged   [(Click)](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/system_calls.txt)
 
   
   ## References
