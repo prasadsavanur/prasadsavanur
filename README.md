@@ -32,4 +32,4 @@ that determine other statistical values, such as median and standard
 deviation.)
 
 ## Author
-Prasad Prabhu Savanur [prasadsavanur](https://github.com/prasadsavanur/prasadsavanur)
+Prasad Prabhu Savanur [(prasadsavanur)](https://github.com/prasadsavanur/prasadsavanur)
