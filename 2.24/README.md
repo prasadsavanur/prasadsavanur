@@ -44,7 +44,6 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 -  Open a file relative to a directory file descriptor
 -  If the pathname given in pathname is relative, then it is interpreted relative to the directory referred to by the file descriptor dirfd (rather than relative to the current working directory of the calling process)
 > int openat(int dirfd, const char *pathname, int flags);
-> int openat(int dirfd, const char *pathname, int flags, mode_t mode);
  - If the pathname given in pathname is relative, then it is interpreted relative to the directory referred to by the file descriptor dirfd (rather than relative to the current working directory of the calling process)
 
 ### 2. read()
