@@ -30,5 +30,4 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
   
   ## References
 - [C code - geeksforgeeks](https://www.geeksforgeeks.org/c-program-copy-contents-one-file-another-file/)
-- [Documentation assistance - Github repository](https://github.com/sankronaldo) 
 - General Ubuntu and Linux command assistance from Mr. Dev Agrawal and Mr. Vincent Paul
