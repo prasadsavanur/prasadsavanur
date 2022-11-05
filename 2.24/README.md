@@ -40,8 +40,45 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 
 ## List of system calls made
 
+### 1. openat() 
+-  Open a file relative to a directory file descriptor
+-  If the pathname given in pathname is relative, then it is interpreted relative to the directory referred to by the file descriptor dirfd (rather than relative to the current working directory of the calling process)
+> int openat(int dirfd, const char *pathname, int flags);
+> int openat(int dirfd, const char *pathname, int flags, mode_t mode);
+ - If the pathname given in pathname is relative, then it is interpreted relative to the directory referred to by the file descriptor dirfd (rather than relative to the current working directory of the calling process)
+
+### 2. read()
+- Reads from a file descriptor
+> ssize_t read(int fd, void *buf, size_t count);
+- read() attempts to read up to count bytes from file descriptor fd into the buffer starting at buf.
+
+### 3. write()
+- Writes to a file descriptor
+> ssize_t write(int fd, const void *buf, size_t count);
+- write() writes up to count bytes from the buffer starting at buf to the file referred to by the file descriptor fd.
+
+### 4. close()
+- Closes a file descriptor
+> int close(int fd);
+- close() closes a file descriptor, so that it no longer refers to any file and may be reused.
+
+### 5. fstat()
+> int fstat(int fildes, struct stat *buf);
+- The fstat() function obtains information about an open file known by the file descriptor fildes, obtained from a successful call to a function such as open(2), create(2). If fildes references a shared memory object, the system updates in the stat structure pointed to by the buf argument.
+
+### 6. stat()
+> int stat(const char *restrict path, struct stat *restrict buf);
+- The stat() function obtains information about the file pointed to by path. 
+- Read, write, or execute permission of the named file is not required, but all directories listed in the path name leading to the file must be searchable.
+
+### 7. lseek()
+- lseek is a system call that is used to change the location of the read/write pointer of a file descriptor. 
+- The location can be set either in absolute or relative terms.
+
+
 
   
   ## References
 - [C code - geeksforgeeks](https://www.geeksforgeeks.org/c-program-copy-contents-one-file-another-file/)
+- [System calls](https://man7.org)
 - General Ubuntu and Linux command assistance from Mr. Dev Agrawal and Mr. Vincent Paul
