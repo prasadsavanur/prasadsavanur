@@ -1,5 +1,6 @@
 # Solution
 ---
+Note: All the information written below is specific to Ubuntu operating system
 ## Requirements
 You will require the GNU Compiler Collection (GCC) in order to be able to run the program strace.c
 
