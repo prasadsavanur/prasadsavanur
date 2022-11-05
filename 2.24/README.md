@@ -17,6 +17,9 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 
 - The program will prompt to enter the name of the input file and output file
 
+![ss](https://user-images.githubusercontent.com/116995762/200142462-5fd41332-3db7-418c-b1e8-67c75430cb1e.png)
+
+
 ## Command to create an output text file to track system calls
 > strace -o system_calls.txt ./straceobj
 - To keep the count of the number of each system call being made, we use -c
