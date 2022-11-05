@@ -27,6 +27,7 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 - The output text file containing all the system calls is as shown below: 
 
 ![ss2](https://user-images.githubusercontent.com/116995762/200142651-6730b6f0-1a32-43d9-bd4b-0d3fba2bc629.png)
+ - [Click to view system_calls.txt](https://github.com/prasadsavanur/prasadsavanur/blob/main/2.24/system_calls.txt)
 
 ## Implementation
 - The program is written in C language for reading the data from an existing file and paste it into a new file (which does not exist before executing the program).
