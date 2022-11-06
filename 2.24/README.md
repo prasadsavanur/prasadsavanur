@@ -83,7 +83,7 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 
 #### System calls
 - [https://docs.oracle.com/cd/E88353_01/html/E37841/fstat-2.html](https://docs.oracle.com/cd/E88353_01/html/E37841/fstat-2.html)
-- [https://man7.org/linux/man-pages/man2/close.2.html] (https://man7.org/linux/man-pages/man2/close.2.html)
+- [https://man7.org/linux/man-pages/man2/close.2.html](https://man7.org/linux/man-pages/man2/close.2.html)
 - [https://man7.org/linux/man-pages/man2/write.2.html](https://man7.org/linux/man-pages/man2/write.2.html)
 - [https://man7.org/linux/man-pages/man2/read.2.html](https://man7.org/linux/man-pages/man2/read.2.html)
 - [https://linux.die.net/man/2/openat](https://linux.die.net/man/2/openat)
