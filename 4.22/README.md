@@ -55,9 +55,12 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 
   
 ## References
+#### code
 - [C code - Github repositry](https://gist.github.com/Jabiribn/e58bf13c678953891900e5f982b48037)
 #### pthread functions
 - [https://man7.org/linux/man-pages/man3/pthread_create.3.html](https://man7.org/linux/man-pages/man3/pthread_create.3.html)
 - [https://man7.org/linux/man-pages/man3/pthread_join.3.html](https://man7.org/linux/man-pages/man3/pthread_join.3.html)
 - [https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-join-wait-thread-end](https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-join-wait-thread-end)
-- Code and documentation assistance from Mr. Dev Agrawal and Mr. Vincent Paul
+
+#### Code and documentation assistance
+- Mr. Dev Agrawal and Mr. Vincent Paul
