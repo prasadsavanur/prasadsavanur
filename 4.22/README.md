@@ -33,7 +33,7 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 - The maximum function is executed by thread t3
 - The execution time in case of multi threading is then observed 
 
-## List of pthread datatypes and functions used 
+## List of pthread functions used 
 ### 1. pthread_create() function
 >  int pthread_create(pthread_t *thread, const pthread_attr_t *__restrict__attr, void *(*start_routine)(void *), void *restrict arg);
 - First argument is a pointer to pthread_t type that is the data type for threads. It creates a new thread which has already been defined as t1, t2, t3 respectively.
@@ -56,5 +56,8 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
   
 ## References
 - [C code - Github repositry](https://gist.github.com/Jabiribn/e58bf13c678953891900e5f982b48037)
-- [pthread functions](https://man7.org/linux)
+#### pthread functions
+- [https://man7.org/linux/man-pages/man3/pthread_create.3.html](https://man7.org/linux/man-pages/man3/pthread_create.3.html)
+- [https://man7.org/linux/man-pages/man3/pthread_join.3.html](https://man7.org/linux/man-pages/man3/pthread_join.3.html)
+- [https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-join-wait-thread-end](https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-join-wait-thread-end)
 - Code and documentation assistance from Mr. Dev Agrawal and Mr. Vincent Paul
