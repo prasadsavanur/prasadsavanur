@@ -2,7 +2,7 @@
 ---
 Note: All the information written below is specific to Ubuntu operating system
 ## Requirements
-You will require the GNU Compiler Collection (GCC) in order to be able to run the program strace.c
+You will require the GNU Compiler Collection (GCC) in order to be able to run the program code.c
 
 [Steps to install GCC compiler on Ubuntu](https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/)
 
@@ -15,6 +15,7 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 > ./a.out
 
 - The program will prompt to enter the number of elements and the value of those elements
+
 
 
 ## Implementation
