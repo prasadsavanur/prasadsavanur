@@ -78,6 +78,14 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 
   
   ## References
-- [C code - geeksforgeeks](https://www.geeksforgeeks.org/c-program-copy-contents-one-file-another-file/)
-- [System calls](https://man7.org)
-- Assistance from Mr. Dev Agrawal and Mr. Vincent Paul
+  #### Code
+- [geeksforgeeks](https://www.geeksforgeeks.org/c-program-copy-contents-one-file-another-file/)
+
+#### System calls
+- [https://docs.oracle.com/cd/E88353_01/html/E37841/fstat-2.html](https://docs.oracle.com/cd/E88353_01/html/E37841/fstat-2.html)
+- [https://man7.org/linux/man-pages/man2/close.2.html] (https://man7.org/linux/man-pages/man2/close.2.html)
+- [https://man7.org/linux/man-pages/man2/write.2.html](https://man7.org/linux/man-pages/man2/write.2.html)
+- [https://man7.org/linux/man-pages/man2/read.2.html](https://man7.org/linux/man-pages/man2/read.2.html)
+- [https://linux.die.net/man/2/openat](https://linux.die.net/man/2/openat)
+#### Code and Documentation Assistance 
+- Mr. Dev Agrawal and Mr. Vincent Paul
