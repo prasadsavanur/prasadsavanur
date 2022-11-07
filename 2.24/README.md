@@ -43,38 +43,51 @@ You will require the GNU Compiler Collection (GCC) in order to be able to run th
 ### 1. openat() 
 -  Open a file relative to a directory file descriptor
 -  If the pathname given in pathname is relative, then it is interpreted relative to the directory referred to by the file descriptor dirfd (rather than relative to the current working directory of the calling process)
-> int openat(int dirfd, const char *pathname, int flags);
+- It returns the file descriptor
 
 ### 2. read()
 - Reads from a file descriptor
-> ssize_t read(int fd, void *buf, size_t count);
-- read() attempts to read up to count bytes from file descriptor fd into the buffer starting at buf.
 
 ### 3. write()
 - Writes to a file descriptor
-> ssize_t write(int fd, const void *buf, size_t count);
-- write() writes up to count bytes from the buffer starting at buf to the file referred to by the file descriptor fd.
 
 ### 4. close()
 - Closes a file descriptor
-> int close(int fd);
 - close() closes a file descriptor, so that it no longer refers to any file and may be reused.
 
 ### 5. fstat()
-> int fstat(int fildes, struct stat *buf);
-- The fstat() function obtains information about an open file known by the file descriptor fildes, obtained from a successful call to a function such as open(2), create(2). If fildes references a shared memory object, the system updates in the stat structure pointed to by the buf argument.
+- The fstat() function obtains information about an open file known by the file descriptor, obtained from a successful call to a function such as open(2), create(2). It gets the file descriptor and gives it to the buffer. This buffer points to some location in the memory. 
 
 ### 6. stat()
-> int stat(const char *restrict path, struct stat *restrict buf);
 - The stat() function obtains information about the file pointed to by path. 
-- Read, write, or execute permission of the named file is not required, but all directories listed in the path name leading to the file must be searchable.
+- fstat() is identical to stat(), except that the file about which information is to be retrieved is specified by a file descriptor (instead of a file name).
 
 ### 7. lseek()
 - lseek is a system call that is used to change the location of the read/write pointer of a file descriptor. 
 - The location can be set either in absolute or relative terms.
 
+### 8. mmap()
+- It is used to map the files specified by the file descriptor in the memory. 
+- It consists of information like the number of bytes, memory protection, etc.
 
+### 9. brk()
+- It is the program break, which defines the end of the process's data segment (i.e., the program  break is the first location after the end of the uninitialized data segment)
+- Increasing the program break has the effect of allocating memory to the process
+- Decreasing the break deallocates memory
 
+### 10. pread64()
+- pread64() shall read count bytes into buf from the file associated with the open file descriptor fd, at the position specified by offset. 
+- If you read() twice, you get two different results, which shows that read() advances in the file.
+- If you pread() twice, you get the same result, which shows that pread() stays at the same point in the file.
+
+### 11. access()
+- access() checks if the calling process can access the file pathname. 
+
+### 12. execve()
+- It executes the passed object file (execute vector arguments environment). 
+
+### 13. arch_prctl()
+- It is the architecture protocol. 
   
   ## References
   #### Code
